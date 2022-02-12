@@ -1,0 +1,27 @@
+body{
+	
+	color:green;
+	font-famiy:verdana,arial,arial black ,helvetica;
+	font-size="23px"
+	font-weight:bold;
+	font-weight:rgb(185,125,60);
+	font-weight:#ffcf79;
+}
+h1{
+	text-decoration:underline;
+	text-decoration:line-through;
+	text-decoration:overline;
+}
+h2{
+	text-decoration:overline;
+
+}
+p.para1{
+	color:blue;
+	font-size:25px;
+	font-family:helvetica;
+}
+p.para2{
+	color:black;
+	font-size:30px;
+}

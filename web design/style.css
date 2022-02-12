@@ -1,0 +1,22 @@
+body{
+    color :green;
+    font-family:helvetica ,verdana ,arial,geneva,arrial block;
+    font-weight:bold;
+ }
+h1{
+	text-decoration:underline;
+	text-decoration :line-through;
+}
+h2{
+	text-decoration:underline overline;
+}
+.blue{
+	color:yellow;
+	font-family:helvetica;
+	font-size:40px;
+}
+p.white{
+	color:black;
+	font-size:31px;
+	font-family:helvetica ;
+}

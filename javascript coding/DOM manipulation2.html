@@ -1,0 +1,24 @@
+<html>
+<head>
+	<title> DOM manipulation</title>
+	<script type="text/javascript">
+		function buttonClick()
+		{
+			var str1= document.getElementById("tec1");
+		     var str2= document.getElementById("tec2");
+		     if(str1.checked==true)
+		     	alert("The chennel select is"+str1.value);
+		     else  if(str2.checked==true)
+		     	alert("The chennel select is"+str2.value);
+		     else 
+		     	alert("no channel seected");
+		}
+	</script>
+	</head>
+	<body>
+		<input id="tec1" type="radio" name=
+		"krishna " value="krishna kumar"> krishna kumar</input></br>
+		<input id="tec2" type ="radio" namme ="krishna " value="Bajrangi kumar">Bajrangi kumar</input></br>
+		<button onclick="buttonClick()" id="tec3" >click me</button>
+			</body>
+</html>

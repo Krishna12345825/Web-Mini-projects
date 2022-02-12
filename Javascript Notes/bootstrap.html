@@ -1,0 +1,38 @@
+<html>
+<head>
+	<script type = "text/javasript">
+		function validation()
+		{  
+			var username = document.getElementById("uname");
+			var password = document.getElementById("pass");
+			if(username.value.trim() =="")
+			{
+				alert("no blank value allow");
+				username.style.border="solid 3px red";
+				return false;
+			}
+			else if(password.value.trim()=="")
+			{
+				alert("blank password");
+				return false;
+			}
+			else if(password.value.trim().length<5)
+			{
+				alert("password too short");
+				return false;
+			}
+			else
+			{
+                 true;
+		    }
+		}
+	</script>
+</head>
+<body>
+	<form onsubmit="return validation()"action = "prog_1string2">
+		<input id="uname" placeholder="username" type = "text"/><br><br>
+		<input id="pass"  placeholder ="password" type ="password"/><br><br>
+		<button type="submit">submit</button>
+	</form>
+</body>
+</html>

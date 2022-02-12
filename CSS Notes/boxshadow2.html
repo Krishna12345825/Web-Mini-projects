@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+#example1 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px inset;
+}
+
+#example2 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 20px red inset;}
+  #example3 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green;
+}
+
+#example4 {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green;
+}
+}
+</style>
+</head>
+<body>
+
+<h2>box-shadow: 5px 10px inset:</h2>
+<div id="example1">
+  <p>The inset keyword changes the shadow to one inside the frame.</p>
+</div>
+
+<h2>box-shadow: 5px 10px 20px red inset:</h2>
+<div id="example2">
+  <p>Inset, red and blur.</p>
+</div>
+<h2>box-shadow: 5px 5px blue, 10px 10px red, 15px 15px green:</h2>
+<div id="example3">
+  <p>Define multiple shadows.</p>
+</div>
+
+<h2>box-shadow: 5px 5px 8px blue, 10px 10px 8px red, 15px 15px 8px green:</h2>
+<div id="example4">
+  <p>Define multiple shadows with blur effect.</p>
+</div>
+</body>
+</html>

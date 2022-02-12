@@ -1,0 +1,43 @@
+body{
+margin: 0em;
+color: fuchsia;
+}
+.navbar{
+    background-color: greenyellow;
+    padding: 10px;
+    height: 50px;
+}
+.navbar-link{
+    color: rgb(205, 92, 199);
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+.hero{
+    height: 500px;
+    background: darkslateblue;
+    background: url(https://source.unsplash.com/1400x720/?event)no-repeat center ;
+    color: deepskyblue;
+    text-align: center;
+    padding: 75px 0;
+}
+.row{
+    display: inline-block;
+}
+.article{
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 5px;
+width: 33%;
+}  
+.article-img{
+    max-width: 100%;
+}
+    .article-tag{
+      background-color:#35696e ;
+     color:#fff;
+     padding:10px;
+     border-radius:5px;
+    }

@@ -1,0 +1,26 @@
+body
+{
+color:green;
+font-family:Verdana,Arial,Geneva,Arial Black;
+font-weight:bold;
+}
+h1{
+text-decoration:line-through;
+}
+h2{
+
+text-decoration:overline;
+
+}
+.blue
+{
+color:blue;
+font-size:25px;
+font-family:helvetica;
+}
+p.white
+{
+color:black;
+font-size:25px;
+font-family:helvetica;
+}

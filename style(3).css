@@ -1,0 +1,35 @@
+body
+{
+color:green;
+font-family:Verdana,Arial,Geneva,Arial Black;
+font-weight:bold;
+}
+h1{
+text-decoration:underline;
+text-decoration:line-through;
+}
+h2{
+text-decoration:underline;
+text-decoration:overline;
+text-decoration:underline overline;
+
+}
+p.para1
+{
+color:blue;
+font-size:25px;
+font-family:helvetica;
+}
+p.para2
+{
+color:black;
+font-size:25px;
+font-family:helvetica;
+}
+p.para3
+{
+color:black;
+font-size:25px;
+font-family:helvetica;
+font-style:italic;
+}

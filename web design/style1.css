@@ -1,0 +1,26 @@
+body{
+	color:red;
+	font-family:verdana ,helvetica ,arial black;
+	font-weight:bold;
+	background-color:yellow;
+   font-size:41px;
+}
+h1{
+	text-decoration:underline line-through overline;
+	font-size:99%;
+}
+h2{
+	text-decoration:overline;
+	font-size:1.2em;
+}
+p.para1{
+	color:red;
+	font-size:51px;
+	font-family:helvetica;
+}
+p.par3{
+	color:black;
+	font-size:30px;
+	font-family:helvetica ;
+	font-style:italic;
+}
